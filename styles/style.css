@@ -216,3 +216,22 @@ header {
     width: 100%;
   }
 }
+
+/* change the style to be suitable for pc and tablet*/
+@media (min-width: 760px) and (max-width: 1024px) {
+  .navbar li {
+    width: 33%;
+    border-right: 1px solid #ffffff;
+    border-bottom: none;
+  }
+  .main-article {
+    flex-direction: row;
+  }
+  .articles-container {
+    flex-direction: row;
+  }
+  .article {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+}
